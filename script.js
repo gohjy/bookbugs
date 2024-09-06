@@ -18,6 +18,6 @@ if (!footer) {
 }
 
 let datetime = document.createElement("p");
-let date = new Date("5 Sep 2024"); // Last updated
+let date = new Date("6 Sep 2024"); // Last updated
 datetime.innerHTML = `<em>Updated ${date.toDateString()}</em>`;
 footer.appendChild(datetime);
